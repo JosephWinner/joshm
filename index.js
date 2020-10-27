@@ -1,0 +1,25 @@
+function ExampleJS(){
+        var jFirst = document.getElementById("fname").value;
+        var jLast = document.getElementById("lname").value;
+        alert("Your name is: " + jFirst + " " + jLast);
+     }
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
